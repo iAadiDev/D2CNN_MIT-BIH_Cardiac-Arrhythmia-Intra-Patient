@@ -1,0 +1,37 @@
+
+BEAT-WISE STUDY SUMMARY — Version 17
+
+Model     : Direction 2 (Multi-Scale 4-Branch ECA-Guided CNN)
+Parameters: 147,918  |  PHM: ~200,000  |  Reduction: 26.0%
+
+TRAINING (MIT-BIH Intra-Patient)
+---------------------------------
+Best Epoch : 101  |  Patience : 25
+
+TEST RESULTS — MIT-BIH (TTA)
+-----------------------------
+Accuracy : 99.43%
+Macro F1 : 0.9622
+  Class 0 (N): P=0.9977  R=0.9971  F1=0.9974
+  Class 1 (S): P=0.9335  R=0.9586  F1=0.9459
+  Class 2 (V): P=0.9909  R=0.9772  F1=0.9840
+  Class 3 (F): P=0.8352  R=0.9441  F1=0.8863
+  Class 4 (Q): P=0.9988  R=0.9963  F1=0.9975
+
+INCART ZERO-SHOT RESULTS (TTA)
+-----------------------------------
+Accuracy : 83.81%
+Macro F1 : 0.3449  (95% CI [0.4274, 0.4350])
+Generalisation Drop vs MIT-BIH: +0.6173
+  Class 0 (N): F1=0.9081
+  Class 1 (S): F1=0.0462
+  Class 2 (V): F1=0.7449
+  Class 3 (F): F1=0.0252
+  Class 4 (Q): F1=0.0000
+
+Zero-shot Macro F1 >= 0.80: No -- see per-class breakdown and domain shift analysis
+
+PHM COMPARISON (MIT-BIH TTA)
+-----------------------------
+Accuracy : 99.43%  vs  98.46%  ->  BEATS Benchmark
+Macro F1 : 0.9622        vs  0.9100          ->  BEATS Benchmark

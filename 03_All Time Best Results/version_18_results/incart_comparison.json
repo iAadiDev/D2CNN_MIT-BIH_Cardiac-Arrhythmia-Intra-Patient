@@ -1,0 +1,56 @@
+{
+  "note": "INCART metrics exclude class Q (n=6)",
+  "incart_valid_classes": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "incart_excluded_classes": [
+    4
+  ],
+  "mitbih_tta_macro_f1_5cls": 0.9622165763172907,
+  "mitbih_tta_macro_f1_4cls": 0.9533929979323944,
+  "incart_tta_macro_f1_raw_5cls": 0.3448914260288488,
+  "incart_tta_macro_f1_eff_4cls": 0.43111428253606104,
+  "incart_ci_95_lower": 0.42735625775847297,
+  "incart_ci_95_upper": 0.4349742597431501,
+  "generalisation_drop_4cls": 0.5222787153963333,
+  "per_class": {
+    "N": {
+      "mitbih_f1": 0.9974061810154525,
+      "incart_f1": 0.9080814355209068,
+      "mitbih_rec": 0.9970760233918129,
+      "incart_rec": 0.8466448892475077,
+      "incart_n": 153676
+    },
+    "S": {
+      "mitbih_f1": 0.9458740017746229,
+      "incart_f1": 0.04621939770347368,
+      "mitbih_rec": 0.9586330935251799,
+      "incart_rec": 0.16326530612244897,
+      "incart_n": 1960
+    },
+    "V": {
+      "mitbih_f1": 0.9839944328462074,
+      "incart_f1": 0.7449197038599267,
+      "mitbih_rec": 0.9771941948859709,
+      "incart_rec": 0.8471493529206016,
+      "incart_n": 20013
+    },
+    "F": {
+      "mitbih_f1": 0.8862973760932945,
+      "incart_f1": 0.025236593059936908,
+      "mitbih_rec": 0.9440993788819876,
+      "incart_rec": 0.0547945205479452,
+      "incart_n": 219
+    },
+    "Q": {
+      "mitbih_f1": 0.9975108898568762,
+      "incart_f1": 0.0,
+      "mitbih_rec": 0.9962709757613425,
+      "incart_rec": 0.0,
+      "incart_n": 6
+    }
+  }
+}

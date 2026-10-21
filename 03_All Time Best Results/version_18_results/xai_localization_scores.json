@@ -1,0 +1,37 @@
+{
+  "Normal (N)": {
+    "expected_region": "Distributed",
+    "cam_window": "[0\u201393] of 94",
+    "signal_window_equiv": "[0\u2013371] of 375",
+    "n_samples": 100,
+    "localization_accuracy": 1.0
+  },
+  "SVB (S)": {
+    "expected_region": "Atrial",
+    "cam_window": "[33\u201373] of 94",
+    "signal_window_equiv": "[132\u2013291] of 375",
+    "n_samples": 100,
+    "localization_accuracy": 0.98
+  },
+  "VEB (V)": {
+    "expected_region": "QRS-ST-T",
+    "cam_window": "[38\u201380] of 94",
+    "signal_window_equiv": "[152\u2013319] of 375",
+    "n_samples": 100,
+    "localization_accuracy": 0.95
+  },
+  "Fusion (F)": {
+    "expected_region": "QRS-extended",
+    "cam_window": "[37\u201362] of 94",
+    "signal_window_equiv": "[148\u2013247] of 375",
+    "n_samples": 100,
+    "localization_accuracy": 1.0
+  },
+  "Unknown (Q)": {
+    "expected_region": "QRS",
+    "cam_window": "[40\u201355] of 94",
+    "signal_window_equiv": "[160\u2013219] of 375",
+    "n_samples": 100,
+    "localization_accuracy": 0.81
+  }
+}
